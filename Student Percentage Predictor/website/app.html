@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student's Percentage Predictor</title>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="form-part">
+			<p class="project-title">Student's Prercentage Predictor</p>
+			<form class="form">
+				<div class="form-group">
+					<p class="input-label">Study Hours</p>
+					<input class="control-form" type="text" id="study_hours" name="study_hours" value="" min="1" pattern="[1-9]+" required="">	
+				</div>
+				<div class="form-group">
+					<button class="button-submit" onclick="predictPercentage()" type="button">Predict Percentage</button>
+				</div>
+			</form>
+		</div>
+		<div id="percentage_scores" class="result-container"></div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

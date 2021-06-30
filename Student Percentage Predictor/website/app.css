@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
+	box-sizing: border-box;
+	user-select: none;
+}
+
+body{
+	background-color: #3457D5;
+}
+
+.container{
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+p.project-title{
+	color: #3457D5;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid whitesmoke;
+}
+
+p.input-label{
+	color: rgba(52, 87, 213, .6);
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.control-form{
+	width: 100%;
+	padding: 12px;
+	border-radius: 3px;
+	border: 2px solid whitesmoke;
+	outline: none;
+	transition: border .5s linear;
+}
+
+.control-form:focus{
+	border: 2px solid #3457D5;
+}
+.form-part{
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding: 20px 30px 30px 30px;
+	margin-bottom: 20px;
+}
+
+form.form{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 10px;
+}
+
+.button-submit{
+	background-color: #3457D5;
+	padding: 12px;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	width: 100%;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.result{
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding: 20px 30px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.control-form{
+	font-size: 16px;
+	font-weight: bold;
+}
